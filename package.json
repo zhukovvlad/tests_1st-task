@@ -1,0 +1,33 @@
+{
+  "name": "1st-task",
+  "version": "1.0.0",
+  "description": "1st task of test module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhukovvlad/tests_1st-task.git"
+  },
+  "author": "zhukovvlad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhukovvlad/tests_1st-task/issues"
+  },
+  "homepage": "https://github.com/zhukovvlad/tests_1st-task#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "core-js": "^3.4.7"
+  }
+}
