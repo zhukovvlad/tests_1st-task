@@ -6,7 +6,8 @@ branches:
   only:
     - master
 
-cache: node_modules
+cache:
+  - node_modules
 
 install:
   - npm install
@@ -15,5 +16,5 @@ build: off
 
 test_script:
   - npm run lint && npm test
-  
+
 
